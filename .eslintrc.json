@@ -2,7 +2,10 @@
   "overrides": [
     {
       "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
-      "extends": "love"
+      "extends": "love",
+      "rules": {
+        "@typescript-eslint/strict-boolean-expressions": "off"
+      }
     }
   ]
 }
