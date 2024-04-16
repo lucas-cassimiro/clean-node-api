@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for invalid-param-error.ts</title>
+    <title>Code coverage report for server-error.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="index.html">All files</a> invalid-param-error.ts</h1>
+        <h1><a href="index.html">All files</a> server-error.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -75,10 +75,10 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js"><span class="cstat-no" title="statement not covered" >export class I</span>nvalidParamError extends Error {
-<span class="fstat-no" title="function not covered" >  constructor (p</span>aramName: string) {
-<span class="cstat-no" title="statement not covered" >    super(`Invalid param: ${paramName}`)</span>
-<span class="cstat-no" title="statement not covered" >    this.name = 'InvalidParamError'</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js"><span class="cstat-no" title="statement not covered" >export class S</span>erverError extends Error {
+<span class="fstat-no" title="function not covered" >  constructor () {</span>
+<span class="cstat-no" title="statement not covered" >    super('Internal server error')</span>
+<span class="cstat-no" title="statement not covered" >    this.name = 'ServerError'</span>
   }
 }
 &nbsp;</pre></td></tr></table></pre>
