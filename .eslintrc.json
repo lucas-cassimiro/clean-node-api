@@ -4,7 +4,8 @@
       "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
       "extends": "love",
       "rules": {
-        "@typescript-eslint/strict-boolean-expressions": "off"
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "@typescript-eslint/no-unsafe-argument": "off"
       }
     }
   ]
