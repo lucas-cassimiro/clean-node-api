@@ -7,5 +7,5 @@ export interface AddAccountModel {
 }
 
 export interface AddAccount {
-  createAccount: (account: AddAccountModel) => AccountModel
+  createAccount: (account: AddAccountModel) => Promise<AccountModel>
 }
