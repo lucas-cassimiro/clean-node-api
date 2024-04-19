@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1713551482524" clover="3.2.0">
-  <project timestamp="1713551482524" name="All files">
-    <metrics statements="25" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2" elements="30" coveredelements="27" complexity="0" loc="25" ncloc="25" packages="3" files="3" classes="3"/>
-    <package name="controllers">
-      <metrics statements="19" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
-      <file name="signup.ts" path="C:\www\curso-backend-avancado\clean-node-api\src\presentation\controllers\signup.ts">
+<coverage generated="1713551994871" clover="3.2.0">
+  <project timestamp="1713551994871" name="All files">
+    <metrics statements="28" coveredstatements="22" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2" elements="33" coveredelements="27" complexity="0" loc="28" ncloc="28" packages="3" files="4" classes="4"/>
+    <package name="controllers.signup">
+      <metrics statements="23" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="signup-protocols.ts" path="C:\www\curso-backend-avancado\clean-node-api\src\presentation\controllers\signup\signup-protocols.ts">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="signup.ts" path="C:\www\curso-backend-avancado\clean-node-api\src\presentation\controllers\signup\signup.ts">
         <metrics statements="19" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
-        <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="16" count="9" type="stmt"/>
         <line num="17" count="9" type="stmt"/>
@@ -37,12 +44,11 @@
       </file>
     </package>
     <package name="protocols">
-      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="C:\www\curso-backend-avancado\clean-node-api\src\presentation\protocols\index.ts">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="0" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
-        <line num="3" count="0" type="stmt"/>
       </file>
     </package>
   </project>
