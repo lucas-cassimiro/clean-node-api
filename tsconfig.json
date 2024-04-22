@@ -5,6 +5,28 @@
     "target": "es2019",
     "esModuleInterop": true,
     "allowJs": true,
-    "strictNullChecks": true
-  }
+    "strictNullChecks": true,
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": [
+        "./src/*"
+      ],
+      "@test/*": [
+        "./test/*"
+      ]
+    },
+    "rootDirs": [
+      "./src",
+      "./test"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./test/**/*.ts"
+  ],
+  "exclude": [
+    "./node_modules",
+    "dist",
+    "coverage"
+  ]
 }
