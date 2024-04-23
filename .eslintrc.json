@@ -5,14 +5,16 @@
         "*.js",
         "*.jsx",
         "*.ts",
-        "*.tsx"
+        "*.tsx",
+        "jest-integration-config.js"
       ],
       "extends": "love",
       "rules": {
         "@typescript-eslint/strict-boolean-expressions": "off",
         "@typescript-eslint/no-unsafe-argument": "off",
         "@typescript-eslint/method-signature-style": "off",
-        "@typescript-eslint/no-confusing-void-expression": "off"
+        "@typescript-eslint/no-confusing-void-expression": "off",
+        "@typescript-eslint/no-var-requires": "off"
       }
     }
   ]
