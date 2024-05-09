@@ -1,5 +1,5 @@
 import { type Controller, type HttpRequest, type HttpResponse, type EmailValidator, type Authentication } from './login-protocols'
-import { badRequest, serverError, unauthorized } from '../../helpers/http-helper'
+import { badRequest, ok, serverError, unauthorized } from '../../helpers/http-helper'
 import { InvalidParamError, MissingParamError } from '../../errors'
 
 export class LoginController implements Controller {
@@ -35,7 +35,7 @@ export class LoginController implements Controller {
         return unauthorized()
       }
 
-      return await new Promise(resolve => resolve(badRequest(new MissingParamError('password'))))
+      return ok({ accessToken })
     } catch (error) {
       return serverError(error)
     }
